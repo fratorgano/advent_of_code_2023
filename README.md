@@ -22,7 +22,7 @@ Bonus: since I'm following a game dev course I might do some days on C# and do a
 | Day | Part 1 Time | Part 1 Rank | Part 1 Runtime[^1][^2] | Part 2 Time | Part 2 Rank | Part 2 Runtime[^1][^2] |
 |:-:|-:|-:|-:|-:|-:|-:|
 |  1 | 02:03:05 | 19532 | 587.8µs | 02:19:45 | 12618 | 9.17ms |
-|  1 | 05:14:58 | 33890 | - | 05:26:05 | 31961 | - |
+|  2 | 05:14:58 | 33890 | - | 05:26:05 | 31961 | - |
 <!--|  1 | 00:13:19 |  5740 |  19.5µs | 00:21:33 |  5187 |  20.7µs | -->
 
 ## 🎅 Have a Wonderful Holiday Season, Everyone! 🎅 
