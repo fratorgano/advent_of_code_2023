@@ -7,6 +7,9 @@ I'm gonna stick to Rust as far as I can, I haven't used since last year so it mi
 
 Bonus: since I'm following a game dev course I might do some days on C# and do a visualization using Unity! 🎮
 
+Update: I removed input file as requested by AoC creator, they should go into a folder "inputs" at the same level of the "crates" folder
+The name format for each input file must be "dayXX.txt"
+
 🏆 Goal: do as much as I can! 🏆
 
 ## ❄️ How to use ❄️

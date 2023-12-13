@@ -3,3 +3,5 @@
 
 /debug/
 /crates/*/debug
+
+/inputs/
