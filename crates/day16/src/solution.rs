@@ -1,5 +1,4 @@
-use core::panic;
-use std::collections::{HashMap, HashSet};
+use std::collections::HashSet;
 
 pub fn part1(input:&[String]) -> usize {
   let parsed = parse(input);
@@ -50,17 +49,16 @@ pub fn count_energized(start_beam:EnergyBeam,cave:&Vec<Vec<char>>) -> usize {
       //println!("Considering: {:?}",beam);
       let mut next = beam.next(cave);
       marked_cave[beam.position.1][beam.position.0] = '#';
-      // print_maxtrix(&marked_cave);
       //println!("Produced: {:?}",next);
       new_beams.append(&mut next);
     }
     energy_beams = new_beams;
     new_beams = vec![];
   }
-  count_energized2(&marked_cave)
+  count_energized_matrix(&marked_cave)
 }
 
-pub fn count_energized2(matrix:&Vec<Vec<char>>) -> usize {
+pub fn count_energized_matrix(matrix:&Vec<Vec<char>>) -> usize {
   let mut sum = 0;
   for row in matrix {
     for elem in row {
@@ -70,16 +68,6 @@ pub fn count_energized2(matrix:&Vec<Vec<char>>) -> usize {
     }
   }
   sum
-}
-
-pub fn print_maxtrix(matrix:&Vec<Vec<char>>) {
-  for row in matrix {
-    for elem in row {
-      print!("{}",elem)
-    }
-    println!()
-  }
-  println!()
 }
 
 #[derive(Debug,PartialEq,Eq,Hash,Clone, Copy)]
