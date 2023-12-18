@@ -114,7 +114,7 @@ fn find_gear_ratios(matrix: &Vec<Vec<char>>) -> usize {
   gear_ratio
 }
 
-fn find_symbols(matrix: &Vec<Vec<char>>) {
+/* fn find_symbols(matrix: &Vec<Vec<char>>) {
   let mut symbols = HashSet::new();
   for row in matrix {
     for c in row {
@@ -124,7 +124,7 @@ fn find_symbols(matrix: &Vec<Vec<char>>) {
     }
   }
   println!("{:?}",symbols);
-}
+} */
 
 fn check_validity(matrix: &Vec<Vec<char>>,row:usize,column:usize) -> bool {
   let valid_symbols = ['@', '+', '*', '-', '#', '=', '&', '%', '$', '/'];
