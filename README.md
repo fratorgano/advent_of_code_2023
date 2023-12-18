@@ -7,10 +7,12 @@ I'm gonna stick to Rust as far as I can, I haven't used since last year so it mi
 
 Bonus: since I'm following a game dev course I might do some days on C# and do a visualization using Unity! 🎮
 
-Update: I removed input file as requested by AoC creator, they should go into a folder "inputs" at the same level of the "crates" folder
+🏆 Goal: do as much as I can! 🏆
+
+[13/12] Update 1: I removed input file as requested by AoC creator, they should go into a folder "inputs" at the same level of the "crates" folder
 The name format for each input file must be "dayXX.txt"
 
-🏆 Goal: do as much as I can! 🏆
+[18/12] Update 2: I started to build my own helper library so I can store some commonly used functions and structures, to use it add ```helper = {path="../../helper"}``` under [dependencies] in the Cargo.toml file of the day crate
 
 ## ❄️ How to use ❄️
 `cargo run -p day**` - Runs a specific day
@@ -41,7 +43,7 @@ The name format for each input file must be "dayXX.txt"
 | 15 | 02:05:22 | 10683 | 294.9µs | 02:42:08 |  9047 | 570.4µs |
 | 16 | 12:38:58 | 19322 |    -    | 12:46:45 | 18197 |    -    |
 | 17 |     >24h | 16934 |    -    |     >24h | 15994 |    -    |
-| 18 | 10:00:43 | 13992 |    -    |     >24h |  9151 |    -    |
+| 18 | 10:00:43 | 13992 |    -    | 10:24:12 |  9151 |    -    |
 <!--|  1 | 00:13:19 |  5740 |  19.5µs | 00:21:33 |  5187 |  20.7µs | -->
 
 ## 🎅 Have a Wonderful Holiday Season, Everyone! 🎅 
