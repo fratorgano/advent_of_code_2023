@@ -1,16 +1,12 @@
 pub mod matrix;
-
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+pub mod numerical;
 
 #[cfg(test)]
 mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
+  /* use super::*;
+  #[test]
+  fn test_gcd() {
+    let result = numerical::gcd(4093, 3889);
+    assert_eq!(1,result)
+  } */
 }
