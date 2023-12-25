@@ -1,7 +1,7 @@
 pub fn print_matrix<T: std::fmt::Display>(matrix: &Vec<Vec<T>>) {
   for line in matrix {
     for elem in line {
-      print!(" {} ",elem)
+      print!("{}",elem)
     }
     println!();
   }
