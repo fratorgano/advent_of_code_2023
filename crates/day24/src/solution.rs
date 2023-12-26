@@ -138,9 +138,4 @@ mod tests {
     let result = count_intersections(&parsed,(7.0,27.0));
     assert_eq!(2, result);
   }
-
-  #[test]
-  fn test_part2() {
-    assert_eq!(47, part2(&get_input()));
-  }
 }

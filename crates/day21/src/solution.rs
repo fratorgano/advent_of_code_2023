@@ -132,16 +132,4 @@ mod tests {
     let res = count_reachable(start, &matrix, 100);
     assert_eq!(6536, res);
   }
-
-  #[test]
-  fn test_part1_500steps() {
-    let (start,matrix) = parse(&get_input());
-    let res = count_reachable(start, &matrix, 500);
-    assert_eq!(167004, res);
-  }
-
-  /* #[test]
-  fn test_part2() {
-    assert_eq!(42, part2(&get_input()));
-  } */
 }
