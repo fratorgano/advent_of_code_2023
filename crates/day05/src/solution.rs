@@ -58,7 +58,6 @@ fn parse(strings:&[String]) -> (Vec<usize>,Vec<Vec<ResourceMap>>) {
   // parse first line that is seeds
   let seeds_string = strings[0].split("seeds: ").last().unwrap();
   let seeds:Vec<usize> = seeds_string.split(" ").map(|s|s.parse::<usize>().unwrap()).collect();
-  println!("{:?}",seeds);
 
   // start parsing from 4th line until an empty line -> map
   let mut i = 3;
